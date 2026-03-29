@@ -45,10 +45,8 @@ A simple Chrome extension that lets you hide selected ShiaMatch profiles from se
 3. Click the extension icon to view hidden profiles
 4. Use **Open** to view a profile or **Unhide** to restore it
 
-## Notes
+## Notes - IMPORTANT
 
-- This extension is for manual installation only
-- It is not currently published on the Chrome Web Store
 - You must keep the extracted folder on your computer after installing it
 
 ## Website matching
