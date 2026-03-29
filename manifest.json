@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "ShiaMatch Hide Profiles",
+  "version": "1.0",
+  "description": "Hide unwanted profiles and manage them",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": [
+    "http://www.shiamatch.com/*",
+    "https://www.shiamatch.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.shiamatch.com/search.php*",
+        "https://www.shiamatch.com/search.php*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
